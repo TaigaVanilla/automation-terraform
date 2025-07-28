@@ -26,8 +26,32 @@ output "linux_vm_hostnames" {
   value = module.linux_vms.linux_vm_hostnames
 }
 
+output "linux_vm_domain_names" {
+  value = module.linux_vms.linux_vm_domain_names
+}
+
+output "linux_vm_private_ips" {
+  value = module.linux_vms.linux_vm_private_ips
+}
+
+output "linux_vm_public_ips" {
+  value = module.linux_vms.linux_vm_public_ips
+}
+
 output "windows_vm_hostname" {
   value = module.windows_vm.windows_vm_hostname
+}
+
+output "windows_vm_domain_name" {
+  value = module.windows_vm.windows_vm_domain_name
+}
+
+output "windows_vm_private_ip" {
+  value = module.windows_vm.windows_vm_private_ip
+}
+
+output "windows_vm_public_ip" {
+  value = module.windows_vm.windows_vm_public_ip
 }
 
 output "load_balancer_name" {
