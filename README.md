@@ -6,6 +6,9 @@ A comprehensive Terraform project for automating Azure infrastructure deployment
 
 This project automates the deployment of a complete Azure infrastructure including virtual machines, networking, storage, monitoring, and database services. It's built with a modular approach using Terraform modules for maintainability and reusability.
 
+## ☁️ Architecture Diagram
+<img width="767" height="396" alt="Image" src="https://github.com/user-attachments/assets/28e1e99b-0703-491b-ba18-98b332035179" />
+
 ## ✨ Features
 
 - **Modular Architecture**: Well-structured Terraform modules for each resource type
